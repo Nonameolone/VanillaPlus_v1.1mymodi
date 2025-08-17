@@ -1,0 +1,16 @@
+{
+  "type": "PowerNode",
+  "name": "Big titanium power node",
+  "description": "Scaled version of titanium power node. Has good range but few connections. Recommended to connect other power nodes instead of another power consumers.",
+  "size": 2,
+  "health": 250,
+  "laserRange": 20,
+  "maxNodes": 4,
+  "requirements": [
+	{ "item": "lead", "amount": 30},
+	{ "item": "silicon", "amount": 20},
+	{ "item": "titanium", "amount": 25},
+	],
+  "category": "power",
+  "research": "titanium-power-node"
+}

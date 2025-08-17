@@ -1,0 +1,53 @@
+{
+ "name": "Tank factory II level",
+ "description": "Build tanks II level, example K-10. Tank stronger than T1, but weaker than T2.",
+ "type": "UnitFactory",
+ "health": 160,
+ "size": 3,
+ "requirements": [
+		"copper/100"
+		"lead/80"
+		"graphite/60"
+   ],
+	"consumes": {
+},
+
+	"plans": [
+	{
+    "unit": "k-10",
+    "requirements": [
+	"copper/60"
+	"graphite/40"
+		],
+	"time": 1200,
+		},
+		{
+    "unit": "t-15",
+    "requirements": [
+	"copper/80"
+	"graphite/60"
+		],
+	"time": 1500,
+		},
+	],
+	"unitCapModifier": 0,
+	"research": {
+	"parent": "tank-factory-I",
+	"requirements": [
+  "copper/1500",
+  "lead/1250"
+  "graphite/1000"
+  ]
+  "objectives": [
+  {
+    "type": "capturedSector",
+    "preset": "frozenForest",
+  },
+    {
+    "type": "capturedSector",
+    "preset": "craters",
+  },
+  ],
+},
+  "category": "units",
+	}

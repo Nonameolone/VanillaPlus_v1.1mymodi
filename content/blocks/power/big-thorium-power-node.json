@@ -1,0 +1,17 @@
+{
+  "type": "PowerNode",
+  "name": "Big thorium power node",
+  "description": "Scaled thorium power node. Has little amount of connections with big radius. Same feature that has titanium power node.",
+  "size": 2,
+  "health": 500,
+  "laserRange": 32,
+  "maxNodes": 6,
+  "requirements": [
+	{ "item": "lead", "amount": 50},
+	{ "item": "silicon", "amount": 40},
+	{ "item": "titanium", "amount": 36},
+	{ "item": "thorium", "amount": 30},
+	],
+  "category": "power",
+  "research": "thorium-power-node"
+}

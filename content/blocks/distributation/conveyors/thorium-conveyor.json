@@ -1,0 +1,16 @@
+{
+	"type": "Conveyor",
+	"name": "Thorium conveyor",
+	"description": "Fast conveyor. Made from Thorium.",
+	"health": 250,
+	"requirements": [
+	"copper/2",
+	"lead/2",
+	"titanium/2",
+	"thorium/2"
+	],
+	"category": "distribution",
+	"speed": 0.16,
+	"displayedSpeed": 20.0,
+	"research": "titanium-conveyor"
+}

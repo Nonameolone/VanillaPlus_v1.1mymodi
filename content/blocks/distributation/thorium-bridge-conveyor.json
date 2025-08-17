@@ -1,0 +1,18 @@
+{
+    "type": "ItemBridge",
+    "name": "Thorium bridge conveyor",
+    "description": "Longer and faster than Titanium bridge conveyor.",
+    "health": 500,
+	"itemCapacity": 20,
+    "requirements": [
+	"copper/20",
+	"lead/20",
+	"titanium/20",
+	"thorium/20"
+    ],
+    "range": 8,
+    "transportTime": 1,
+    "hasPower": false,
+    "category": "distribution",
+    "research": "titanium-bridge-conveyor"
+}

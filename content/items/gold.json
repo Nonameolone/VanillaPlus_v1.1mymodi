@@ -1,0 +1,10 @@
+{
+"name": "Gold"
+"description": "Usually use for tank factories as money and (or) build material. Made of Copper and Silicon"
+"explosiveness": 0,
+"flammability": 0,
+"radioactivity": 0,
+"charge": 0.1,
+"cost": 5,
+"color": "E5E500"
+}

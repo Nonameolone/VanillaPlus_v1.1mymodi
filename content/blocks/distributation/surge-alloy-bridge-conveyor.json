@@ -1,0 +1,19 @@
+{
+    "type": "ItemBridge",
+    "name": "Surge-alloy bridge conveyor",
+    "description": "Oh yes, this is second last bridge conveyor. And some words, fast bridge transportation, good capacity, speeeeeed, and no more words, but this is EXPENSIVE bridge conveyor, and now[#E51616] NO MORE WORDS. yes.",
+    "health": 1000,
+	"itemCapacity": 30,
+    "requirements": [
+	"copper/50",
+	"lead/60",
+	"titanium/42",
+	"thorium/40",
+	"surge-alloy/32"
+    ],
+    "range": 12,
+    "transportTime": 0.75,
+    "hasPower": false,
+    "category": "distribution",
+    "research": "thorium-bridge-conveyor"
+}

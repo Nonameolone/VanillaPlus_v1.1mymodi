@@ -1,0 +1,30 @@
+{
+	"name": "Surge-alloy drill",
+	"description": "Mines all resourses very fast. The fastest drill",
+	"type": "Drill",
+	"size": 3,
+	"tier": 5,
+	"drillTime": 60,
+	"itemCapacity": 20,
+	"rotateSpeed": 2.4,
+	"warmupSpeed": 0.004,
+	"liquidBoostIntensity": 1.9,
+	"liquidCapacity": 20,
+	"consumes": {
+		"liquid": {
+			"liquid": "water", 
+			"amount": 0.2,
+			"optional": true,
+			"booster": true
+		}
+	},
+	"requirements": [
+		"silicon/160"
+		"graphite/150"
+		"titanium/110"
+		"thorium/90"
+		"surge-alloy/80"
+	],
+	"category": "production",
+	"research": "thorium-drill"
+}

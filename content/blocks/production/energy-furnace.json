@@ -1,0 +1,24 @@
+{
+  "type": "GenericCrafter",
+  "name": "Energy kiln",
+  "description": "Freezes energy into two metaglass units",
+  "health": 500,
+  "size": 2,
+  "requirements": [
+    { "item": "copper", "amount": 12},
+	{ "item": "lead", "amount": 8},
+	{ "item": "graphite", "amount": 7},
+  ],
+  "research": "kiln",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 9,
+  "consumes": {
+    "power": 1,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 24,
+  "outputItem": { "item": "metaglass", "amount": 10}
+}

@@ -1,0 +1,17 @@
+{
+  "type": "PowerNode",
+  "name": "Титановый силовой узел",
+  "description": "Лучше, чем обычный Силовой узел",
+  "size": 1,
+  "health": 100,
+  "laserRange": 9,
+  "maxNodes": 15,
+  "requirements": [
+    { "item": "copper", "amount": 10},
+	{ "item": "lead", "amount": 20},
+	{ "item": "silicon", "amount": 10},
+	{ "item": "titanium", "amount": 15},
+	],
+  "category": "power",
+  "research": "power-node"
+}

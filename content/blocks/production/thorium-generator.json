@@ -1,0 +1,31 @@
+{
+  "type": "GenericCrafter",
+  "name": "Generates thorium",
+  "description": "Generates thorium. Building this generator is expensive. Block gives out small stacks of thorium, relatively frequently. Consumes big amount of power.",
+  "health": 1500,
+  "size": 2,
+  "requirements": [
+    { "item": "copper", "amount": 10},
+	{ "item": "lead", "amount": 15},
+	{ "item": "graphite", "amount": 15},
+	{ "item": "silicon", "amount": 10},
+	{ "item": "metaglass", "amount": 10},
+	{ "item": "titanium", "amount": 12},
+	{ "item": "plastanium", "amount": 16},
+	{ "item": "thorium", "amount": 10},
+	{ "item": "phase-fabric", "amount": 16},
+	{ "item": "surge-alloy", "amount": 20},
+  ],
+  "research": "low-power-thorium-generator",
+  "hasPower": true,
+  "hasItems": true,
+  "craftTime": 8,
+  "consumes": {
+    "power": 1,
+  },
+  "updateEffect": "smeltsmoke",
+  "category": "crafting",
+  "idleSoundVolume": 0.5,
+  "itemCapacity": 30,
+  "outputItem": { "item": "thorium", "amount": 10}
+}
