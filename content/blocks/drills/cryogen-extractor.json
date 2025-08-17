@@ -2,6 +2,7 @@
   "name": "Cryoxtractor",
   "description": "Produce cryofliud with electic convertions.",
   "type": "SolidPump",
+  "craftTime": 1,
   "health": 400,
   "size": 2,
   "requirements": [
@@ -13,7 +14,7 @@
   ],
   "result": "cryofluid",
   "attribute": "water",
-  "pumpAmount": 0.3,
+  "pumpAmount": 1,
   "research": "cryofluid-mixer",
   "hasPower": true,
   "hasItems": false,
@@ -27,5 +28,5 @@
   "idleSoundVolume": 0.5,
   "itemCapacity": 40,
   "liquidCapacity": 120,
-  "outputLiquid": { "liquid": "cryofluid", "amount": 2},
+  "outputLiquid": { "liquid": "cryofluid", "amount": 10},
 }
