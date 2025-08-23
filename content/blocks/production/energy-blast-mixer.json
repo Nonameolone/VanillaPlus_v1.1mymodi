@@ -22,5 +22,5 @@
   "category": "crafting",
   "idleSoundVolume": 0.5,
   "itemCapacity": 20,
-  "outputItem": { "item": "blast-compound", "amount": 40}
+  "outputItem": { "item": "blast-compound", "amount": 10}
 }
